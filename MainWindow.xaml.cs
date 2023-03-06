@@ -29,5 +29,10 @@ namespace HelloWord
         {
 
         }
+
+        private void btnGo_Click(object sender, RoutedEventArgs e)
+        {
+            txtShow.Text = "Hello World!";
+        }
     }
 }
